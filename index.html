@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./favicon.ico" >
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Para Generator</title>
+</head>
+<body class="bg-gray-800">
+    <h1 class="text-white text-2xl font-semibold text-center p-3 ">PARA GENERATOR</h1>
+    <div class="my-5 ml-5 md:flex md:justify-center md:items-center space-y-3 md:space-y-0 md:space-x-3">
+        <input type="number" id="numOfWords" class="outline-none rounded-md px-3 py-2 w-3/4" placeholder="Enter Number of Words">
+        <button id="btn" class="border-[1px] text-white py-2 px-3 rounded-lg hover:bg-slate-700" onclick="generatePara()">Generate</button>
+    </div>
+    <div class="container  m-auto my-10  ">
+        <div class="bg-gray-300 rounded-lg px-5 py-2 mx-6 my-4">
+            
+            <button onclick="copyfunc(this)" class="px-3 border-[1px] border-gray-800 rounded-lg py-1 hover:bg-gray-700 hover:text-white hover:border-white">Copy</button>
+            <p>Sample Text : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat laborum perferendis hic consequuntur, officia quo, deleniti nisi a harum quidem unde culpa incidunt voluptatum quam excepturi omnis natus dignissimos. Quia?</p>
+            
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
